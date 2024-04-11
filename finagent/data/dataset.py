@@ -186,7 +186,7 @@ class Dataset(BaseDataset):
 
 if __name__ == '__main__':
 
-    root = "/Users/wentaozhang/workspace/RA/FinAgentPrivate"
+    root = "workspace/RA/FinAgentPrivate"
 
     dataset = Dataset(
         root = root,

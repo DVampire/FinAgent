@@ -292,7 +292,7 @@ class EnvironmentTrading(gym.Env):
 if __name__ == '__main__':
     from finagent.data.dataset import Dataset
 
-    # root = "/Users/wentaozhang/workspace/RA/FinAgentPrivate"
+    # root = "workspace/RA/FinAgentPrivate"
     # selected_asset = "TSLA"
     # dataset = Dataset(
     #     root=root,
@@ -335,7 +335,7 @@ if __name__ == '__main__':
     # print("number of sentiment: {}".format(len(df)))
 
 
-    root = "/Users/wentaozhang/workspace/RA/FinAgentPrivate"
+    root = "workspace/RA/FinAgentPrivate"
     selected_asset = "EURUSD"
     dataset = Dataset(
         root=root,
@@ -367,7 +367,7 @@ if __name__ == '__main__':
     df = df[df.index < "2024-01-01"]
     print("number of news: {}".format(len(df)))
 
-    root = "/Users/wentaozhang/workspace/RA/FinAgentPrivate"
+    root = "workspace/RA/FinAgentPrivate"
     selected_asset = "ETHUSD"
     dataset = Dataset(
         root=root,
