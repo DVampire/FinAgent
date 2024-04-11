@@ -18,7 +18,7 @@ def main():
 
     fmp_api_key = os.environ.get('OA_FMP_KEY')
 
-    with open("/Users/wentaozhang/workspace/RA/FinAgentPrivate/configs/_stock_list_/dj30.txt", "r") as op:
+    with open("../configs/_stock_list_/dj30.txt", "r") as op:
         stocks = op.readlines()
         stocks = [stock.strip() for stock in stocks]
 
