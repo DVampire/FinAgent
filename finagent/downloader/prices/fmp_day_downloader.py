@@ -194,7 +194,7 @@ class FMPDayPriceDownloader(Downloader):
 
 if __name__ == '__main__':
 
-    request_url = "https://financialmodelingprep.com/api/v3/stock_news?tickers=AAPL&page=218&apikey=yh3YH3bjNMYn8GkLf6saTvKu8sJo7397"
+    request_url = "https://financialmodelingprep.com/api/v3/stock_news?tickers=AAPL&page=218&apikey=[apikey]"
     aggs = get_jsonparsed_data(request_url)
     print(aggs)
 
